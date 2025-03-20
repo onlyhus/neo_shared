@@ -1,0 +1,43 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.sideBar.location": "left",
+  "editor.suggestSelection": "first",
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "**/__pycache__": true
+  },
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.largeFileOptimizations": false,
+  "explorer.confirmDelete": false,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.fontSize": 12,
+  "editor.detectIndentation": true,
+  "editor.comments.insertSpace": true,
+  "editor.tabSize": 2,
+  "json.maxItemsComputed": 10000,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.unicodeHighlight.allowedLocales": {
+    "tr": true
+  },
+
+  // Prettier & ESLint için eklenen ayarlar:
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 180,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
+  "prettier.jsxSingleQuote": true
+}
