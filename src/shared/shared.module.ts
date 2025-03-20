@@ -5,5 +5,6 @@ import { SharedController } from './shared.controller';
 @Module({
   providers: [SharedService],
   controllers: [SharedController],
+  exports: [SharedService],
 })
 export class SharedModule {}
